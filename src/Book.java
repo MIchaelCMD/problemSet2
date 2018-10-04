@@ -1,6 +1,10 @@
 public class Book {
-    public static void main(String[] args) {
 
-        String title = "";
+        private String title, isbn;
+        private int pageNum;
+        private double price;
+
+    public Book() {
+
     }
 }
