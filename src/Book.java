@@ -14,6 +14,9 @@ public class Book {
         public Book(String title, String isbn, int pageNum, double price) {
 
             this.title = title;
+            this.isbn = isbn;
+            this.pageNum = pageNum;
+            this.price = price;
         }
 
         public void setPrice(double price) {
