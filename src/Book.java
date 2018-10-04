@@ -49,7 +49,6 @@ public class Book {
         }
 
         public String toString() {
-
             return "Title: " + this.title + "\nISBN: " + this.isbn + "\nPrice: " + this.price + "\nNumber of pages: " + this.pageNum;
         }
     }
