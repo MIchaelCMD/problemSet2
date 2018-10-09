@@ -6,7 +6,9 @@ public class Animal {
     private int age;
 
     public Animal() {
+
         this("No Type Specified",null,0.0,0);
+
     }
 
     public Animal(String type, String[] continent, double weight, int age) {
@@ -14,6 +16,5 @@ public class Animal {
         this.continent = continent;
         this.type = type;
         this.weight = weight;
-
     }
 }
