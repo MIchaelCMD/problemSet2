@@ -8,7 +8,6 @@ public class BookDriver {
         book1.setPrice(17.43);
         book1.setTitle("The Chamber of Secrets");
 
-        //System.out.print(book1.getIsbn() + "\n" + book1.getTitle() + "\n" + book1.getPageNum() + "\n" + book1.getPrice());
         System.out.print(book1.toString());
     }
 }
