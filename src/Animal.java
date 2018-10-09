@@ -10,6 +10,6 @@ public class Animal {
     }
 
     public Animal(String type, String[] continent, double weight, int age) {
-        Animal.setType(type);
+        Animal.setType(type)
     }
 }
