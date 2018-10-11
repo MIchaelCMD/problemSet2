@@ -17,4 +17,8 @@ public class Animal {
         this.type = type;
         this.weight = weight;
     }
+
+    public String toString() {
+        return "Type: " + this.type + "\nContinent: " + this.continent + "\nWeight: " + this.weight + "\nAge: " + this.age;
+    }
 }
