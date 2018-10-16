@@ -22,6 +22,18 @@ public class MyPoint {
 
     }
 
+    public double moveHorizontally(double toMoveBy) {
+
+        this.xVal = this.xVal + toMoveBy;
+        return xVal;
+    }
+
+    public double moveVertically(double toMoveBy) {
+
+        this.yVal = this.yVal + toMoveBy;
+        return yVal;
+    }
+
     public String toString() {
         return "The x value is: " + this.xVal + "\nThe y value is: " + this.yVal;
     }
