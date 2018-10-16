@@ -12,7 +12,7 @@ public class MyPoint {
         this.yVal = yVal;
     }
 
-    public void double distanceFromOrigin(double a, double b) {
+    public static double distanceFromOrigin(double a, double b) {
 
         double c;
 
